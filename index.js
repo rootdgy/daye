@@ -20,7 +20,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '';              // 哪吒v1的NZ_CLI
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'daye.epri.eu.org';          // 固定隧道域名,留空即启用临时隧道
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNWVkNTYxZTNiMmNhNTk4YzgzODAwMGM5ZjljNGJiYWIiLCJ0IjoiZjZkNDYyN2ItOTI5MS00N2MzLTg1MjUtZWQ4NTJkYWRjY2JiIiwicyI6IllqQmlNams1T0dFdE9UZ3dZeTAwTVdJNExUa3hOV1F0TldJeU1qZzFOV00yWW1VMiJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
-const CFIP = process.env.CFIP || 'cdns.doon.eu.org';        // 节点优选域名或优选ip  
+const CFIP = process.env.CFIP || 'icook.tw';        // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || 'daye';                        // 节点名称
 
